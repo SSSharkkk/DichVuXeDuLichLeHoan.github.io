@@ -1,0 +1,472 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+.header  {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/anhMuaDong/anhtieude\ -\ Copy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+}
+
+#container .header .main-header {
+    display: flex;
+    height: 80px;
+    margin-top: 50px;
+}
+
+.header .menu {
+    display: flex;
+    
+}
+.header .logo {
+    margin-left: 200px;
+    margin-right: 280px;
+}
+
+.header .menu > a {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    line-height: 50px;
+    padding-left: 50px;
+    display: flex;
+    display: block;
+}
+.header .menu > a:hover {
+    text-decoration: 3px underline rgb(251, 252, 252);
+    color: rgb(5, 6, 6);
+}
+
+.header .main-header {
+ width: 100vw;
+
+}
+.pr-travel {
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 200px;
+}
+
+/* sidebar */
+
+#container .sidebar {
+    width: 100vw;
+    height: 450px;
+}
+
+.sidebar-header {
+    margin-top: 50px;
+    margin-left: 650px;
+}
+
+.sidebar-header > p {
+    color: rgb(166, 164, 164);
+    margin-left: 30px;
+}
+
+.sidebar-header > h2 {
+    font-size: 25px;
+}
+
+.sidebar-header > img {
+    margin-left: 100px;
+    
+}
+.sidebar-img .img {
+    border-radius: 50%;
+}
+
+.sidebar-img {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 200px;
+}
+
+.slider {
+    height: 580px;
+    width: 100vw;
+    background-image: url(/anhMuaDong/anh3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.slider .slider-content {
+margin-left: 630px;
+}
+
+.slider .slider-content > p {
+ margin-left: 30px;
+}
+.slider .slider-content > h2 {
+ font-size: 25px;   
+}
+.slider-content {
+    color: white;
+    display: inline-block;
+    margin-top: 50px;
+}
+.slider-content > img {
+    margin-left: 100px;
+}
+.sub-slider-img  {
+    margin-right: 180px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.sub-slider-img > img {
+    margin-left: 30px;
+}
+
+ .sidebar .image { 
+    transition: 0,10s all ease-in-out;
+}
+.sidebar  .image:hover {
+    transform: scale(1.2);
+}
+.sub-slider-img .image-item .image img {
+    overflow: hidden;
+}
+.sub-slider-img .image-item .image a img {
+    transition: all 0.3s ease-in-out;
+    display: block;
+}
+.sub-slider-img .image-item .image a:hover img {
+    transform: scale(1.1);
+}
+
+.content {
+    height: 700px;
+    width: 100vw;
+    background-image: url(/anhMuaXuan/anh6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.main-content {
+    color: rgb(239, 34, 130);
+    display: inline-block;
+    margin-top: 50px;
+}
+.content .main-content {
+    margin-left: 630px;
+    
+    }
+
+.container-content {
+    display: flex;
+}
+.content .main-content > p {
+     margin-left: 30px;
+    }
+.content .main-content > h2 {
+     font-size: 25px;   
+    }
+.content .content-left {
+  margin-left: 13%;
+  margin-top: 1px;
+  width: 20%;
+  justify-content: center;
+  text-align: justify;
+  margin-right: 110px;
+}
+.content .content-left p {
+    color: rgb(146, 102, 136);
+    font-weight: 900;
+    font-size: 18.8px;
+}
+.content .content-left:hover {
+    transform: scaleX(1.1);
+}
+.main-content > img {
+    margin-left: 100px;
+}
+.content .content-center {
+    width: 20%;
+    height: 200px;
+}
+.content .content-center p {
+    color: rgb(146, 102, 136);
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.content .content-center:hover {
+    transform: scaleX(1.1);
+}
+.content .content-right {
+    margin-left: 100px;
+    width: 20%;
+    height: 200px;
+}
+
+
+.content .content-right p {
+    color: rgb(146, 102, 136);
+    font-weight: 900;
+    font-size: 20px;
+}
+.content .content-right:hover {
+    transform: scaleX(1.1);
+}
+
+
+.absolute {
+    height: 400px;
+}
+
+
+.absolute-header {
+    margin-top: 60px;
+    margin-left: 620px;
+}
+.absolute-header > h1 {
+    font-weight: 900;
+    font-size: 25px;
+}
+.content-absolute {
+    display: flex;
+    margin-left: 7%;
+    margin-top: 50px;
+}
+
+.absolute-header > img {
+    margin-left: 120px;
+}
+.sub-content-absolute {
+    margin-left: 100px;
+}
+.sub-content-absolute > img {
+    margin-left: 100px;
+}
+.sub-content-absolute > h3 {
+    font-weight: 800;
+    margin-left: 70px;
+}
+.sub-content-absolute > p {
+    color: rgb(137, 142, 147);
+    text-align: center;
+}
+
+.fill {
+    height: 580px;
+    width: 100vw;
+    background-image: url(http://mauweb.monamedia.net/travelwp/wp-content/uploads/2019/01/plane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.fill-header {
+    margin-top: 50px;
+    margin-left: 620px;
+    display: inline-block;
+}
+.fill-header > h1 {
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+}
+.fill-header > p {
+    margin-left: 80px;
+    color: rgb(250, 248, 248);
+}
+.fill-header > img {
+    margin-left: 150px;
+}
+.sub-fill {
+    display: flex;
+    margin-left: 3%;
+}
+.sub-fill-content {
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.sub-fill-content > img {
+    margin-left: 30px;
+}
+
+.sub-fill-content > h1 {
+    color: rgb(236, 179, 105);
+    font-weight: 800;
+    font-size: 50px;
+}
+.sub-fill-content > p {
+    color: white;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+
+.comment {
+    height: 660px;
+}
+
+.comment-header {
+    margin-top: 40px;
+    display: flex;
+}
+
+
+.comment-header-right > h2 {
+    font-size: 25px;
+    font-weight: 900;
+}
+.comment-header-left > h2 {
+    font-size: 25px;
+    font: 900;
+}
+.comment-header-left {
+    margin-right: 400px;
+    margin-left: 300px;
+}
+.comment-header-left > img {
+  margin-left: 30px;
+}
+.comment-header-right > img {
+    margin-left: 150px;
+}
+.sub-commemt {
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.sub-commemt > img {
+    margin-right: 70px;
+}
+.sub-commemt {
+    position: relative;
+}
+
+.comment-content .sub-commemt {
+    display: flex;
+}
+.sub-comment-p  {
+    position: absolute;
+    top: 50px;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+}
+
+.sub-star {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.sub-comment-nav {
+    width: 75%;
+}
+.khoang-trang {
+    height: 100px;
+}
+.footer {
+    height: 380px;
+    width: 100vw;
+    background-image: url(/anhMuaDong/anhfooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.footer-icon {
+    margin-top: 40px;
+    color: rgb(176, 171, 171);
+
+}
+.footer p {
+    color: rgb(176, 171, 171);
+}
+.footer-left {
+    margin-right: 50px;
+    margin-left: 200px;
+}
+.sub-footer {
+    padding-top: 30px;
+    display: flex;
+}
+.footer-content {
+    margin-right: 200px;
+
+}
+.footer-sub-content {
+    margin-right: 150px;
+}
+
+.footer-content > h3 {
+    color: rgb(176, 171, 171);
+
+}
+.footer-sub-content > h3 {
+    color: rgb(176, 171, 171);
+
+}
+.content-pr {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer-right > h3 {
+    color: rgb(176, 171, 171);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* slick farmwork */
+ .slick-arrow {
+    position: absolute;
+    border: none;
+    width: 50;
+    height: 50;
+    font-size: 30px;
+    line-height: 1;
+    z-index: 5;
+    background: none;
+    margin-bottom: 60px;
+}
+
+.slick-arrow:hover {
+    color: rgb(255, 200, 0);
+}
+
+
