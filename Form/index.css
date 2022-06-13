@@ -1,472 +1,329 @@
 * {
     padding: 0;
     margin: 0;
-    
+    font-family: 'Comfortaa', sans-serif;
 }
-.header  {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/anhMuaDong/anhtieude\ -\ Copy.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
+/* @keyframes xoay {
+    0% {
+      transform: rotate(0deg);
+    } 50% {
+      transform: rotate(360deg);
+    } 100% {
+      transform: rotate(0deg);
+    }
+} */
+header {
+    height: 800px;
+}
+.nav-header {
     display: flex;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
-#container .header .main-header {
-    display: flex;
-    height: 80px;
-    margin-top: 50px;
+.header-logo {
+    margin-right: 5%;
+    margin-left: 12%;
+    animation: xoay 10s infinite;
+}
+.header-info a{
+text-decoration: none;
+color: black;
+margin-right: 20px;
+font-size: 14px;
+display: flex;
+font-weight: bold;
+
 }
 
-.header .menu {
-    display: flex;
-    
-}
-.header .logo {
-    margin-left: 200px;
-    margin-right: 280px;
-}
-
-.header .menu > a {
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
+.header-info li{
     list-style: none;
-    text-decoration: none;
-    line-height: 50px;
-    padding-left: 50px;
+    display: inline-block;
+    margin: auto 0;
+}
+.header-info {
     display: flex;
-    display: block;
 }
-.header .menu > a:hover {
-    text-decoration: 3px underline rgb(251, 252, 252);
-    color: rgb(5, 6, 6);
+.header-logoPhone img {
+    margin-top: 20px;
+    text-align: center;
 }
 
-.header .main-header {
- width: 100vw;
-
+.header-logoPhone a  {
+  display: flex;    
+  margin: auto 0;
+  text-decoration: none;
+  color: brown;
+} 
+.header-info a:hover,
+.header-logoPhone a:hover {
+    color: rgb(248, 188, 116);
 }
-.pr-travel {
-    color: white;
-    font-weight: 900;
+
+.header-logoPhone {
+    display: flex;
+}
+
+.header-info li:hover .sub-header-info {
+ display: block;
+}
+.header-logoPhone img {
+    margin: auto 0;   
+  }
+.header-logoPhone p {
+    margin: auto 0;   
+}
+.header-info {
+    position: relative;
+}
+.header-info .sub-header-info {
     position: absolute;
-    margin-top: 500px;
-    margin-left: 200px;
+}
+.sub-header-info {
+    top: 5;
+    width: 250px;
+    display: none;
+    border: 1px solid rgb(35, 33, 33);
+    background-color: rgb(254, 255, 255);
+}
+.icon-down {
+    margin: auto;
+    margin-left: 5px;
+}
+.sub-header-info li a {
+    margin: 0;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-/* sidebar */
-
-#container .sidebar {
-    width: 100vw;
-    height: 450px;
+.header-backgroud-img {
+    margin-top: 20px;
+    margin-left: 12%;
 }
 
-.sidebar-header {
+.menu-icon {
+    display: none;
+}
+
+.container-aside {
+    margin-left: 12%;
+}
+
+.sub-aside-top {
+ display: flex;
+ margin-top: 10px;
+}
+
+.sub-aside-top-backgroud {
+    background-color: rgb(210, 218, 218);
+    height: 230px;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.sub-aside-top-backgroud > p {
+    margin-left: 8px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.sub-aside-top-backgroud ion-icon {
+    margin-right: 10px;
+    color: black;
+}
+
+.aside-center {
+    margin-top: 40px;
+}
+
+
+.aside-bottom {
+    margin-top: 40px;
+}
+
+
+.home-icon{
+    display: none;
+}
+
+
+section {
+    height: 600px;
     margin-top: 50px;
-    margin-left: 650px;
+    width: 100vw;
 }
 
-.sidebar-header > p {
-    color: rgb(166, 164, 164);
-    margin-left: 30px;
+.main-section {
+    display: flex;
 }
 
-.sidebar-header > h2 {
-    font-size: 25px;
+.section-left {
+    margin-left: 12%;
+    position: relative;
 }
 
-.sidebar-header > img {
-    margin-left: 100px;
+.car-1 {
+    position: absolute;
+    left: 0;
+    margin-left: 300px;
+    margin-top: 300px;
     
 }
-.sidebar-img .img {
-    border-radius: 50%;
+
+
+.sub-section-left {
+    width: 120px;
+    height: 150px;
+    background-color: rgb(246, 234, 234);
+    position: absolute;
+    top: 0;
+    text-align: center;
 }
 
-.sidebar-img {
-    display: flex;
-    margin-top: 70px;
-    margin-left: 180px;
-    margin-right: 200px;
+.sub-section-left img {
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
-.slider {
-    height: 580px;
-    width: 100vw;
-    background-image: url(/anhMuaDong/anh3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+.section-right {
+    width: 39%;
+    position: absolute;
+    right: 200px;
 }
 
-.slider .slider-content {
-margin-left: 630px;
+.section-right p {
+    margin-top: 20px;
 }
 
-.slider .slider-content > p {
- margin-left: 30px;
-}
-.slider .slider-content > h2 {
- font-size: 25px;   
-}
-.slider-content {
-    color: white;
-    display: inline-block;
-    margin-top: 50px;
-}
-.slider-content > img {
-    margin-left: 100px;
-}
-.sub-slider-img  {
-    margin-right: 180px;
-    margin-left: 200px;
-    margin-top: 60px;
-}
-.sub-slider-img > img {
-    margin-left: 30px;
-}
-
- .sidebar .image { 
-    transition: 0,10s all ease-in-out;
-}
-.sidebar  .image:hover {
-    transform: scale(1.2);
-}
-.sub-slider-img .image-item .image img {
-    overflow: hidden;
-}
-.sub-slider-img .image-item .image a img {
-    transition: all 0.3s ease-in-out;
-    display: block;
-}
-.sub-slider-img .image-item .image a:hover img {
-    transform: scale(1.1);
-}
-
-.content {
+article {
     height: 700px;
     width: 100vw;
-    background-image: url(/anhMuaXuan/anh6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+  }
+.main-article {
+    display: flex;
 }
-.main-content {
-    color: rgb(239, 34, 130);
-    display: inline-block;
-    margin-top: 50px;
+.article-header {
+    margin-left: 12%;
+    padding-top: 3%;
+    display: flex;
 }
-.content .main-content {
-    margin-left: 630px;
+
+.article-header h1 {
+    margin-right: 15%;
+}
+.article-content-left {
+    height: 450px;
+    width: 330px;
+    background-image: url(https://i.pinimg.com/originals/40/6f/1f/406f1fffaadb949b01e97a587421bc88.png);
+    background-color: rgb(206, 204, 204);
+    margin-left: 12%;
+    margin-top: 5%;
+    text-align: center;
     
-    }
+}
+.article-content-left p,
+.article-content-left img {
+    margin-top: 40px;
+    color: rgb(44, 44, 44);
+    font-weight: 100;
+}
 
-.container-content {
-    display: flex;
-}
-.content .main-content > p {
-     margin-left: 30px;
-    }
-.content .main-content > h2 {
-     font-size: 25px;   
-    }
-.content .content-left {
-  margin-left: 13%;
-  margin-top: 1px;
-  width: 20%;
-  justify-content: center;
-  text-align: justify;
-  margin-right: 110px;
-}
-.content .content-left p {
-    color: rgb(146, 102, 136);
-    font-weight: 900;
-    font-size: 18.8px;
-}
-.content .content-left:hover {
-    transform: scaleX(1.1);
-}
-.main-content > img {
-    margin-left: 100px;
-}
-.content .content-center {
-    width: 20%;
-    height: 200px;
-}
-.content .content-center p {
-    color: rgb(146, 102, 136);
-    font-weight: 900;
-    font-size: 20px;
-    margin-bottom: 50px;
-}
-.content .content-center:hover {
-    transform: scaleX(1.1);
-}
-.content .content-right {
-    margin-left: 100px;
-    width: 20%;
-    height: 200px;
+.article-content-left p {
+    width: 95%;
+    justify-content: center;
+    font-size: 15px;
+    margin-left: 5px;
 }
 
 
-.content .content-right p {
-    color: rgb(146, 102, 136);
-    font-weight: 900;
-    font-size: 20px;
-}
-.content .content-right:hover {
-    transform: scaleX(1.1);
+.sub-aricle-right {
+    width: 360px;
+    margin-left: 2.6%;
+    margin-top: 5%;
 }
 
 
-.absolute {
-    height: 400px;
-}
 
 
-.absolute-header {
-    margin-top: 60px;
-    margin-left: 620px;
-}
-.absolute-header > h1 {
-    font-weight: 900;
-    font-size: 25px;
-}
-.content-absolute {
-    display: flex;
-    margin-left: 7%;
-    margin-top: 50px;
-}
 
-.absolute-header > img {
-    margin-left: 120px;
-}
-.sub-content-absolute {
-    margin-left: 100px;
-}
-.sub-content-absolute > img {
-    margin-left: 100px;
-}
-.sub-content-absolute > h3 {
-    font-weight: 800;
-    margin-left: 70px;
-}
-.sub-content-absolute > p {
-    color: rgb(137, 142, 147);
-    text-align: center;
-}
 
-.fill {
-    height: 580px;
+
+
+
+
+
+
+
+
+
+
+  
+  footer {
     width: 100vw;
-    background-image: url(http://mauweb.monamedia.net/travelwp/wp-content/uploads/2019/01/plane.jpg);
+    height: 300px;
+    background-image: url(/anh/backGroudFooter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-} 
-
-.fill-header {
-    margin-top: 50px;
-    margin-left: 620px;
-    display: inline-block;
-}
-.fill-header > h1 {
-    font-weight: 900;
-    font-size: 25px;
-    color: white;
-}
-.fill-header > p {
-    margin-left: 80px;
-    color: rgb(250, 248, 248);
-}
-.fill-header > img {
-    margin-left: 150px;
-}
-.sub-fill {
-    display: flex;
-    margin-left: 3%;
-}
-.sub-fill-content {
-    margin-top: 50px;
-    margin-left: 10%;
-}
-.sub-fill-content > img {
-    margin-left: 30px;
-}
-
-.sub-fill-content > h1 {
-    color: rgb(236, 179, 105);
-    font-weight: 800;
-    font-size: 50px;
-}
-.sub-fill-content > p {
-    color: white;
-    margin-left: 20px;
-    font-size: 17px;
-}
-
-
-.comment {
-    height: 660px;
-}
-
-.comment-header {
-    margin-top: 40px;
-    display: flex;
-}
-
-
-.comment-header-right > h2 {
-    font-size: 25px;
-    font-weight: 900;
-}
-.comment-header-left > h2 {
-    font-size: 25px;
-    font: 900;
-}
-.comment-header-left {
-    margin-right: 400px;
-    margin-left: 300px;
-}
-.comment-header-left > img {
-  margin-left: 30px;
-}
-.comment-header-right > img {
-    margin-left: 150px;
-}
-.sub-commemt {
-    margin-left: 200px;
-    margin-right: 100px;
-}
-
-.sub-commemt > img {
-    margin-right: 70px;
-}
-.sub-commemt {
-    position: relative;
-}
-
-.comment-content .sub-commemt {
-    display: flex;
-}
-.sub-comment-p  {
-    position: absolute;
-    top: 50px;
-    width: 25%;
-    text-align: center;
-    justify-content: center;
-}
-
-.sub-star {
-    display: flex;
-    font-size: 20px;
-    justify-content: center;
-}
-
-.sub-comment-nav {
-    width: 75%;
-}
-.khoang-trang {
-    height: 100px;
-}
-.footer {
-    height: 380px;
+    color: rgb(155, 155, 153);
+  }
+  
+  .main-footer  {
     width: 100vw;
-    background-image: url(/anhMuaDong/anhfooter.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.footer-icon {
-    margin-top: 40px;
-    color: rgb(176, 171, 171);
-
-}
-.footer p {
-    color: rgb(176, 171, 171);
-}
-.footer-left {
-    margin-right: 50px;
-    margin-left: 200px;
-}
-.sub-footer {
-    padding-top: 30px;
+    font-weight: 100;
     display: flex;
-}
-.footer-content {
-    margin-right: 200px;
+  }
+  
+  .footer-left {
+    padding-top: 2%;
+    margin-left: 12%;
+  }
+  
+  .footer-left p {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 100;
+  }
+  .sub-footer-left-icon{
+    display: flex;
+  }
+  
+  .sub-footer-left-icon p {
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .footer-aside,
+  .footer-center {
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+  
+  .footer-center p {
+    margin-top: 5%;
+  }
+  
+  .footer-center-top {
+    margin-bottom: 15%;
+  }
+  .footer-aside p {
+    margin-top: 10px;
+  }
 
-}
-.footer-sub-content {
-    margin-right: 150px;
-}
+  .footer-right {
+    margin-top: 2%;
+    margin-left: 6%;
+  }
+  .footer-right-header {
+    margin-bottom: 10px;
+  }
 
-.footer-content > h3 {
-    color: rgb(176, 171, 171);
+  .footer-bottom h3 {
+    margin-left: 45%;
+  }
 
-}
-.footer-sub-content > h3 {
-    color: rgb(176, 171, 171);
-
-}
-.content-pr {
-    text-align: center;
-    justify-content: center;
-    margin-top: 50px;
-}
-.footer-right > h3 {
-    color: rgb(176, 171, 171);
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* slick farmwork */
- .slick-arrow {
-    position: absolute;
-    border: none;
-    width: 50;
-    height: 50;
-    font-size: 30px;
-    line-height: 1;
-    z-index: 5;
-    background: none;
-    margin-bottom: 60px;
-}
-
-.slick-arrow:hover {
-    color: rgb(255, 200, 0);
-}
-
+  
 
