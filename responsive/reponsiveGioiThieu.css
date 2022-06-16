@@ -1,0 +1,14 @@
+@media (max-width : 420px) {
+    .content-aside img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      .content-aside {
+        height: auto;
+        height: 1550px;
+      }
+    aside {
+        height: 1600px;
+    }
+}

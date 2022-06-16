@@ -1,0 +1,21 @@
+@media (max-width : 420px) {
+   
+   aside {
+     height: 1670px;
+   }
+   
+    .aside-content {
+        display: block;
+    }
+
+    .sub-aside-content {
+        width: 100%;
+        margin-top: 20%;
+        margin-right: 20%;
+    }
+   
+    .aside-header,
+    .aside-content-header {
+        text-align: center;
+    }
+}

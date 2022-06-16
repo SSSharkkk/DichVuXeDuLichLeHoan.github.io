@@ -1,0 +1,23 @@
+@media (max-width : 420px) {
+   
+   .aside-content-top {
+    display: block;
+   }
+   .content-aside {
+    display: block;
+   }
+   aside {
+    height: 1700px;
+   }
+   .main-aside p {
+    font-size:  20px;
+   }
+   .aside-info-header {
+    margin-left: 0;
+   }
+   .aside-call img {
+     width: 80%;
+     margin-top: 10%;
+   }
+   
+}

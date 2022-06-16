@@ -1,0 +1,31 @@
+
+header {
+    height: 100px;
+}
+aside {
+    height: 1000px;
+    width: 100vw;
+    background-color: rgb(196, 196, 196);
+}
+.content-aside {
+    margin-left: 12%;  
+    width: 76%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
+    color: rgb(117, 116, 116);
+    height: 950px;
+}
+
+.content-aside h1  {
+    font-size: 30px;
+    text-align: center;
+}
+.content-aside h3,
+.content-aside p {
+    padding-left: 20px;
+    margin-top: 3%;
+}
+.content-aside a {
+    margin-left: 30%;
+    margin-top: 3%;
+}

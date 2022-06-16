@@ -1,0 +1,19 @@
+@media (max-width : 420px) {
+
+    aside {
+        height: 10600px;
+    }
+     .aside-content {
+        display: block;
+        margin-right: 25px;
+     }
+
+     .sub-aside-content {
+        margin-top: 10%;
+        width: 100%;
+     }
+
+     .aside-header h1 {
+        color: red;
+     }
+}

@@ -1,0 +1,55 @@
+header {
+    height: 100px;
+}
+aside {
+    height: 1300px;
+    
+}
+.main-aside {
+  margin-left: 12%;
+}
+
+.aside-header {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 3%;
+
+}
+
+.aside-content-left,
+.aside-content-right {
+    margin-top: 10%;
+    margin-left: 9%;
+}
+.aside-content-center {
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+.content-aside {
+    display: flex;
+}
+
+.aside-content-bottom p,
+.aside-content-top p {
+    margin-top: 10px;
+}
+.aside-content-top a,
+.aside-content-bottom a {
+    text-decoration: none;
+    color: black;
+    
+}
+.aside-info-header {
+    margin-left: 32%;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.aside-info {
+    margin-left: 10%;
+}
+
+.aside-call {
+    text-align: center;
+    margin-top: 5%;
+}
