@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Comfortaa', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -118,15 +119,14 @@
 .content-main {
     display: flex;
     margin-top: 2%;
-    margin-left: 1%;
-    margin-right: 1%;
+    justify-content: space-between;
+    padding: 0 10px;
+    width: 100vw;
 }
 .info-laptop {
     font-size: 12px;
 }
-.sub-main-content {
-    margin-right: 0.1%;
-}
+
 .sub-main-content img:hover {
     transform: scale(1.1);
 
@@ -242,7 +242,7 @@
 
 
 #footer {
-    height: 400px;
+    height: auto;
     width: 100vw;
     background-color: rgb(232, 239, 237);
 }
